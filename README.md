@@ -1,4 +1,4 @@
-# Recommender Systems Project
+Recommender Systems Project
 
 # Overview
 This project implements and evaluates four different recommendation approaches using the MovieLens dataset:
