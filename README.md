@@ -1,6 +1,6 @@
-# 🎬 Recommender Systems Project
+# Recommender Systems Project
 
-## 📌 Overview
+# Overview
 This project implements and evaluates four different recommendation approaches using the MovieLens dataset:
 
 - Non-Personalized Recommender  
@@ -12,7 +12,7 @@ The goal is to compare these approaches under a unified evaluation framework and
 
 ---
 
-## 📊 Dataset
+## Dataset
 We use the **MovieLens (ml-latest-small)** dataset, which contains:
 
 - User ratings (`userId`, `movieId`, `rating`)  
@@ -23,7 +23,7 @@ The dataset is highly sparse, making it suitable for testing different recommend
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### 1. Non-Personalized Recommender
 - Based on global statistics (average, popularity, weighted rating)  
@@ -46,16 +46,16 @@ The dataset is highly sparse, making it suitable for testing different recommend
 
 ---
 
-## 🧪 Evaluation
+## Evaluation
 
-### 📉 Offline Evaluation
+### Offline Evaluation
 All models are evaluated using a **temporal train-test split**:
 - First 80% → training  
 - Last 20% → testing  
 
 ---
 
-### 📏 Metrics
+###  Metrics
 
 #### Prediction Accuracy
 - RMSE  
@@ -73,7 +73,7 @@ All models are evaluated using a **temporal train-test split**:
 
 ---
 
-## 📊 Results
+## Results
 
 The models are compared using a standardized evaluation table:
 
@@ -86,7 +86,7 @@ The models are compared using a standardized evaluation table:
 
 ---
 
-## 🔬 A/B Testing (Simulated)
+##  A/B Testing (Simulated)
 
 A simulated A/B test was conducted comparing:
 
@@ -102,5 +102,5 @@ Result:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
