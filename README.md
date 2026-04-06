@@ -12,6 +12,7 @@ The goal is to compare these approaches under a unified evaluation framework and
 
 
 Dataset:
+
 We use the MovieLens (ml-latest-small) dataset, which contains:
 
 User ratings (userId, movieId, rating)
