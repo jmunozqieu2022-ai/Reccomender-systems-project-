@@ -1,6 +1,7 @@
 Recommender Systems Project
 
-# Overview
+Overview
+
 This project implements and evaluates four different recommendation approaches using the MovieLens dataset:
 
 - Non-Personalized Recommender  
@@ -11,7 +12,8 @@ This project implements and evaluates four different recommendation approaches u
 The goal is to compare these approaches under a unified evaluation framework and analyze their performance using multiple metric families.
 
 
-# Dataset
+Dataset
+
 We use the **MovieLens (ml-latest-small)** dataset, which contains:
 
 - User ratings (`userId`, `movieId`, `rating`)  
@@ -22,56 +24,56 @@ The dataset is highly sparse, making it suitable for testing different recommend
 
 
 
-# Methodology
+Methodology
 
-# 1. Non-Personalized Recommender
+1. Non-Personalized Recommender
 - Based on global statistics (average, popularity, weighted rating)  
 - Serves as a strong baseline  
 
-# 2. Collaborative Filtering
+2. Collaborative Filtering
 - User-based collaborative filtering  
 - Uses similarity measures (Pearson / cosine)  
 - Provides personalized recommendations  
 
-# 3. Content-Based Recommender
+3. Content-Based Recommender
 - Uses movie genres as features  
 - Computes item-item similarity  
 - Recommends similar items based on user preferences  
 
-# 4. Context-Aware Recommender
+4. Context-Aware Recommender
 - Extends content-based approach  
 - Uses weekday vs weekend as context  
 - Applies contextual pre-filtering  
 
 
 
-# Evaluation
+Evaluation
 
-# Offline Evaluation
+Offline Evaluation
 All models are evaluated using a **temporal train-test split**:
 - First 80% → training  
 - Last 20% → testing  
 
 
 
-# Metrics
+Metrics
 
-# Prediction Accuracy
+Prediction Accuracy
 - RMSE  
 - MAE  
 
-# Ranking Metrics
+Ranking Metrics
 - Precision@K  
 - Recall@K  
 - NDCG  
 
-# Beyond-Accuracy Metrics
+Beyond-Accuracy Metrics
 - Coverage  
 - Diversity  
 - Serendipity  
 
 
-# Results
+Results
 
 The models are compared using a standardized evaluation table:
 
@@ -84,7 +86,7 @@ The models are compared using a standardized evaluation table:
 
 
 
-#  A/B Testing (Simulated)
+A/B Testing (Simulated)
 
 A simulated A/B test was conducted comparing:
 
